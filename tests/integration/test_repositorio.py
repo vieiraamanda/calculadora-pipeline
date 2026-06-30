@@ -33,4 +33,4 @@ def test_buscar_preco_apos_multiplos_saves(conn):
     assert buscar_preco(conn, "mouse") == 150.00
     assert buscar_preco(conn, "teclado") == 250.00
 
-    #teste
+    #test
